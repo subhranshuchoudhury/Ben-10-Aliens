@@ -1,7 +1,7 @@
 # Ben 10 Aliens Trumps Card 🃏
 ______________________________________________
 
-- [DEMO] W3space Server: https://ben10aliens.w3spaces.com (free/easy/perfect/only 500 visits for one month)
+- [DEMO] W3space Server: https://ben10aliens.w3spaces.com (free/easy/perfect/only 500 visits per month)
 - [DEMO] Weebly Server: https://ben10aliendatabase.weebly.com (free/medium/not perfect/unlimited visits)
 ______________________________________________
 
