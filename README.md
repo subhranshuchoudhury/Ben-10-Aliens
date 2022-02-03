@@ -1,7 +1,8 @@
 # Ben 10 Aliens Trumps Card 🃏
 ______________________________________________
 
-# Watch Demo: https://ben10aliens.w3spaces.com
+# W3space Server: https://ben10aliens.w3spaces.com [free][500 requests]
+# Weebly Server: https://ben10aliendatabase.weebly.com [free][unlimited requests]
 ______________________________________________
 
 ![ben_10_wallpaper](https://user-images.githubusercontent.com/63858190/152181517-8a0b8c7a-23f2-4ef1-9bba-dc0b405a6c2b.jpg)
