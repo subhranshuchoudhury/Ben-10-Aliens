@@ -1,8 +1,8 @@
 # Ben 10 Aliens Trumps Card 🃏
 ______________________________________________
 
-*** W3space Server: https://ben10aliens.w3spaces.com
-*** Weebly Server: https://ben10aliendatabase.weebly.com
+-[DEMO] W3space Server: https://ben10aliens.w3spaces.com
+-[DEMO] Weebly Server: https://ben10aliendatabase.weebly.com
 ______________________________________________
 
 ![ben_10_wallpaper](https://user-images.githubusercontent.com/63858190/152181517-8a0b8c7a-23f2-4ef1-9bba-dc0b405a6c2b.jpg)
