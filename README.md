@@ -13,6 +13,7 @@ ______________________________________________
 - You have to change the link given to omnitrix which open aliens list.
 - All the images are of their respective owners.
 - Images are from 3rd-party websites so if any image is not displayed then just change the image link to new one.
+- Project Status: Completed
 
 
 ______________________________________________
