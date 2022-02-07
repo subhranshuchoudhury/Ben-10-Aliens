@@ -6,7 +6,6 @@ ______________________________________________
 - [ASSETS LINK] Dropbox: https://www.dropbox.com/sh/shu5495nphfo21c/AAAabh8whvBKGFZz66y3OUA1a?dl=0
 ______________________________________________
 
-![ben_10_wallpaper](https://user-images.githubusercontent.com/63858190/152181517-8a0b8c7a-23f2-4ef1-9bba-dc0b405a6c2b.jpg)
 
 - A basic html page for showing ben 10 aliens. a small project for beginners who started learn html.
 - Download index.html and open it in browser to view the webpage.
