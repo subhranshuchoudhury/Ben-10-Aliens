@@ -1,0 +1,55 @@
+
+html, body { 
+    height: 100%;
+    margin: 0;
+  }
+
+.main {
+    text-align: center;
+    background-image: url("../imgResources/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; /*cover all page */
+    background-attachment: fixed /* still image regardless of scroll*/ 
+}
+
+.titleMain{
+    margin-top: 30px;
+    font-size: 50px;
+    background: -webkit-linear-gradient(rgb(5, 5, 5),rgb(236, 234, 234));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 3px rgb(10, 10, 10);
+    font-weight: 900;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow:
+      0 0 40px rgb(230, 255, 2),
+      0 0 80px rgb(241, 238, 8),
+      0 0 90px rgb(92, 252, 0),
+      0 0 100px rgb(196, 250, 1),
+      0 0 150px rgb(222, 247, 5);
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(0, 0, 0);
+   
+}
+
+.credits{
+    color: rgb(237, 240, 240);
+    margin-right: 10px;
+    margin-top: 60px;
+}
+
+a{
+    font-size: 40px;
+    color: rgb(240, 240, 240);
+    margin-top: 45px;
+}
