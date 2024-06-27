@@ -11,13 +11,13 @@
 
 	<h1 class="titleMain">Omnitrix Aliens Database</h1>
     
-  <marquee>
-    <h3 style="text-align:center;background-color:yellow;color: green;">Click On Omnitrix Image To See Data Of Aliens</h3>
-  </marquee>
-	
-	<audio controls autoplay muted>
-		<source src="./soundResources/Ben 10 Theme Song Hindi  HD.mp3" type="audio/mp3">
-	</audio>
+
+    <div class="audio-player">
+        <audio id="Audio" src="/soundResources/Ben 10 Theme Song Hindi  HD.mp3"></audio>
+        <button id="play-btn"><i class="fa-solid fa-play"></i></button>
+        <button id="stop-btn"><i class="fa-solid fa-stop"></i></button>
+      </div>
+
 
 
 	<div class="catalogo">
@@ -32,11 +32,6 @@
             <div class="catalogo-item">
                 <img class="logoBig" src="/imgResources/logoUltimate.png" alt="Imagen 3">
             </div>
-
-            <div class="catalogo-item active" class="active" >
-                <img class="logoSmall" src="/imgResources/logoClassic.png" alt="Imagen 1">
-            </div>
-			
             
 		</div>
 
@@ -44,7 +39,7 @@
         <button class="catalogo-control nextButton" onclick="nextSlide()"><i class="fa-solid fa-arrow-right"></i></button>
 	</div>
 
-    <button onclick="openSelector()">Starti</button>
+    <button class="openSelector" onclick="openSelector()">START</button>
 
 	
 	
