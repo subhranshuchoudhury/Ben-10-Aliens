@@ -29,6 +29,78 @@ html, body {
       0 0 150px rgb(222, 247, 5);
 }
 
+
+audio{
+    visibility: visible;
+    position: relative;
+    left: 500px;
+    bottom: 150px;
+    width: 280px;
+    height: 20px;
+    border: 4px solid rgb(13, 14, 13);
+    border-radius: 15px;
+    }
+
+
+
+.catalogo{
+    position: relative;
+    left: 340px;
+    width: 600px;
+    height: 350px;
+    overflow: hidden;
+    margin: 50px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+
+.catalogo-inner{
+    display: flex;
+     transition: transform 0.7s ease-in-out;
+}
+
+
+.catalogo-item {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.logoBig{
+    width: 250px;
+}
+
+.logoSmall{
+    width: 470px;
+}
+
+
+.catalogo-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgb(252, 248, 248);
+    font-size: 80px;
+    cursor: pointer;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+}
+
+.catalogo-control:hover{
+    filter: drop-shadow(0 0 10px rgb(227, 252, 3)); 
+}
+
+.prevButton {
+    left: 40px;
+}
+
+.nextButton {
+    right: 40px;
+}
+
+
+
 footer{
     position: absolute;
     width: 100%;
@@ -48,8 +120,9 @@ footer{
     margin-top: 60px;
 }
 
-a{
+.aFooter{
     font-size: 40px;
     color: rgb(240, 240, 240);
     margin-top: 45px;
 }
+

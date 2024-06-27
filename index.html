@@ -14,30 +14,47 @@
   <marquee>
     <h3 style="text-align:center;background-color:yellow;color: green;">Click On Omnitrix Image To See Data Of Aliens</h3>
   </marquee>
-	<br>
-	<br>
-	<audio controls autoplay>
-		<source src="https://www.dropbox.com/s/bdembfvef8obbd8/Ben%2010%20Theme%20Song%20Hindi%20%20HD.mp3?dl=1" type="audio/mpeg">
+	
+	<audio controls autoplay muted>
+		<source src="./soundResources/Ben 10 Theme Song Hindi  HD.mp3" type="audio/mp3">
 	</audio>
-	<br>
-	<br>
-	<a href="/ben-classic-aliens.html"> <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/bf3dc296298449.5eab0198e6636.png" alt="Ben 10 classic" style="width:300px;height:300px;"> </a>
-	<h3 align="center" style="background-color: black;width: auto;height: 20px;color: yellow">Classic Aliens</h3>
-	<br>
-	<a href="/ben-force-aliens.html"> <img src="https://i.pinimg.com/originals/e9/ea/3e/e9ea3e1be93b447e6edeb96f02a7afd3.jpg" alt="Ben 10 alien force" style="width:300px;height:300px;"> </a>
-	<br>
-	<h3 align="center" style="background-color: black;width: auto;height: 20px;color: yellow">Force Aliens</h3>
-	<a href="/ben-ultimate-aliens.html"> <img src="https://w0.peakpx.com/wallpaper/132/1000/HD-wallpaper-ben-10-ultimatrix-ben-10-lover-watches.jpg" alt="Ben 10 ultimate" style="width:300px;height:300px;"> </a>
-	<h3 align="center" style="background-color: black;width: auto;height: 20px;color: yellow">Ultimate Aliens</h3>
-	<br>
-	<br>
-	<br>
+
+
+	<div class="catalogo">
+		<div class="catalogo-inner">
+
+			<div class="catalogo-item active" class="active" >
+                <img class="logoSmall" src="/imgResources/logoClassic.png" alt="Imagen 1">
+            </div>
+            <div class="catalogo-item" >
+                <img class="logoBig" src="/imgResources/logoForce.png" alt="Imagen 2">
+            </div>
+            <div class="catalogo-item">
+                <img class="logoBig" src="/imgResources/logoUltimate.png" alt="Imagen 3">
+            </div>
+
+            <div class="catalogo-item active" class="active" >
+                <img class="logoSmall" src="/imgResources/logoClassic.png" alt="Imagen 1">
+            </div>
+			
+            
+		</div>
+
+		<button class="catalogo-control prevButton" onclick="prevSlide()"><i class="fa-solid fa-arrow-left"></i></button>
+        <button class="catalogo-control nextButton" onclick="nextSlide()"><i class="fa-solid fa-arrow-right"></i></button>
+	</div>
+
+    <button onclick="openSelector()">Starti</button>
+
+	
+	
 
     <footer>
         <h4 class="credits">Created by Subhranshu Choudhury</h4>
-        <a href="https://github.com/subhranshuchoudhury" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a class="aFooter" href="https://github.com/subhranshuchoudhury" target="_blank"><i class="fa-brands fa-github"></i></a>
     </footer>
     
+	<script src="/script.js"></script>
 </body>
 
 </html>
