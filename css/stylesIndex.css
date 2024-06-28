@@ -29,6 +29,126 @@ html, body {
       0 0 150px rgb(222, 247, 5);
 }
 
+
+
+
+.audio-player{
+    background-color: transparent;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    left: 650px;
+    top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.audio-player button{
+    color: #0c0c0c;
+    background-color: rgb(197, 252, 0);
+    width: 40px;
+    height: 30px;
+    font-size: 20px;
+    border: solid 2px #fdfdfc;
+}
+
+
+.catalogo{
+    position: relative;
+    left: 340px;
+    width: 600px;
+    height: 350px;
+    overflow: hidden;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+
+.catalogo-inner{
+    display: flex;
+     transition: transform 0.7s ease-in-out;
+}
+
+
+.catalogo-item {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.logoBig{
+    width: 250px;
+}
+
+.logoSmall{
+    width: 470px;
+}
+
+
+.catalogo-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgb(252, 248, 248);
+    font-size: 80px;
+    cursor: pointer;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+}
+
+.catalogo-control:hover{
+    filter: drop-shadow(0 0 10px rgb(227, 252, 3)); 
+}
+
+.prevButton {
+    left: 40px;
+}
+
+.nextButton {
+    right: 40px;
+}
+
+.openSelector{
+    width: 100px;
+    height: 40px;
+    margin: 30px;
+    position: relative;
+    bottom: 70px;
+    font-size: 30px;
+    font-family: fantasy;
+    left: 30px;
+    background-color: #f4f802;
+    animation: animation 3s linear infinite;
+}
+
+
+@keyframes animation {
+    0% {
+      transform: scaleX(0.7);
+      transform: scaleY(0.8);
+      
+    }
+    50% {
+        transform: scaleX(0.9);
+  
+    }
+    75% {
+        transform: scaleX(0.9);
+        
+    }
+    100% {
+        transform: scaleX(0.7);
+        transform: scaleY(0.8);
+        
+    }
+  }
+  
+  .openSelector:hover{
+    filter: drop-shadow(0 0 10px rgb(227, 252, 3)); 
+    animation-play-state: paused;
+  }
+
+
 footer{
     position: absolute;
     width: 100%;
@@ -48,8 +168,9 @@ footer{
     margin-top: 60px;
 }
 
-a{
+.aFooter{
     font-size: 40px;
     color: rgb(240, 240, 240);
     margin-top: 45px;
 }
+
